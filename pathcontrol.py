@@ -16,5 +16,5 @@ while True:
         tinybit.car_spinleft(80)
     elif left is False and right is True:
         tinybit.car_spinright(80)
-    elif left is False and right is False:
-        tinybit.car_run(205)
+    elif left is True and right is True:
+        tinybit.car_stop()
